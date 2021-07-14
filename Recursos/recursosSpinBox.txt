@@ -1,0 +1,2 @@
+valorSpinbox=StringVar()
+spinboxListado=Spinbox(ventana, values=listaEjemplo, textvariable=valorSpinbox).place(x=20, y=125)

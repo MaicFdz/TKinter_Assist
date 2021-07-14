@@ -1,0 +1,33 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+#LIBRERÍAS---------------------------------------------------------------------------
+from tkinter import *
+import tkinter as tk
+from tkinter import ttk
+import os
+
+#SET VENTANA-------------------------------------------------------------------------
+colorFondo="#F0F0F0"
+dimensiones="528x320"
+colorLetras="#000000"
+colorLetraBoton="#000000"
+colorFondoBoton="#F0F0F0"
+titulo="Asistente TKinter"
+
+directorioInicial=u"D:/Karpeta/1_-_Programacion/1_-_Python/Proyectos_-_Iniciados/Programas_2/Asistente_TKinter"
+directorioRecursos=directorioInicial+u'/Recursos'
+
+#Temporal----------------------------------------------------------------------------
+listaEjemplo=[1,2,3,4]
+
+def funcionVacia():
+ pass
+
+#INICIO VENTANA----------------------------------------------------------------------
+ventana=Tk()
+ventana.title(titulo)
+ventana.geometry(dimensiones)
+ventana.configure(background=colorFondo)
+
+#ELEMENTOS DE LA VENTANA-------------------------------------------------------------

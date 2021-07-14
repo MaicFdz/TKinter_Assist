@@ -1,0 +1,4 @@
+boolEstado=BooleanVar()
+checkEstado=Checkbutton(ventana, text="Estado", fg=colorLetras, background=colorFondo, variable=boolEstado)
+checkEstado.pack()
+checkEstado.place(x=20, y=150)

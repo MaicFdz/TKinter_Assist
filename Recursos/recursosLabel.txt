@@ -1,0 +1,3 @@
+textoEtiqueta=Label(ventana, text="texto", foreground=colorLetras, background=colorFondo)
+textoEtiqueta.pack()
+textoEtiqueta.place(x=20, y=20)

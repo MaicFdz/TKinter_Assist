@@ -1,0 +1,3 @@
+dato=StringVar()
+cajaDato=Entry(ventana, textvariable=dato)
+cajaDato.place(x=20, y=45)

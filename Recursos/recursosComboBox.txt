@@ -1,0 +1,2 @@
+valorCombobox=IntVar()
+comboboxListado=ttk.Combobox(ventana, values=listaEjemplo, textvariable=valorCombobox).place(x=20, y=100)

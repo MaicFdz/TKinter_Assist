@@ -1,0 +1,2 @@
+imagen=PhotoImage(file=directorioRecursos+"\\img.png")
+fondo=Label(ventana, image=imagen, background=colorFondo).place(x=410, y=200)

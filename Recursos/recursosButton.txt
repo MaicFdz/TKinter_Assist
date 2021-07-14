@@ -1,0 +1,3 @@
+botonReproducir=Button(ventana, text="Boton", command=funcionVacia, foreground=colorLetraBoton, background=colorFondoBoton, width=15, height=1)
+botonReproducir.pack()
+botonReproducir.place(x=20, y=70)
